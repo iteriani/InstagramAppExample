@@ -9,7 +9,7 @@ var hashtag = require('./routes/hashtag');
 var index = require('./routes/index');
 //database setup
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGOHQ_URL || 'mongodb://localhost/instagramexample');
+mongoose.connect(process.env.MONGOHQ_URL || 'mongodb://proj0:proj0@oceanic.mongohq.com:10039/proj0');
 
 //Configures the Template engine
 app.engine('handlebars', handlebars());
